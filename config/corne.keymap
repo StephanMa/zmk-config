@@ -52,7 +52,7 @@
 
 
 
-&i2cq {
+&i2c1 {
     compatible = "nordic,nrf-spim";
     status = "okay";
 
