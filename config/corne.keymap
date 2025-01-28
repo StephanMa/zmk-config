@@ -71,7 +71,7 @@
         chain-length = <12>; /* 6 keys have underglow at the moment */
         spi-one-frame = <0x70>;
         spi-zero-frame = <0x40>;
-gpios = <&gpio0 16 0>;
+in-gpios = <&gpio0 16 0>;
         color-mapping = <LED_COLOR_ID_GREEN LED_COLOR_ID_RED LED_COLOR_ID_BLUE>;
     };
 };
