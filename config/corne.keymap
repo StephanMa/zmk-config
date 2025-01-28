@@ -67,8 +67,7 @@
 
 / {
     chosen {
-        //zmk,underglow = &led_strip;
-	zmk,backgorund = $led_strip;
+	zmk,background = $led_strip;
     };
 };
 
