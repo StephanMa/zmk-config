@@ -62,6 +62,7 @@
         /* SPI */
         reg = <0>; /* ignored, but necessary for SPI bindings */
         spi-max-frequency = <4000000>;
+	chain-lenght= <27>;
 
         /* WS2812 */
         chain-length = <12>; /* 6 keys have underglow at the moment */
