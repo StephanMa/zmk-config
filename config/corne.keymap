@@ -11,23 +11,6 @@
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/led/led.h>
 
-#define DEFAULT 0
-#define LOWER   1
-#define RAISE   2
-
-#define U_MOUSE_MOVE_MAX 9250
-#define U_MOUSE_MOVE_EXPONENT 1
-#define U_MOUSE_MOVE_TIME 1500
-#define U_MOUSE_MOVE_DELAY 0
-
-/*
- * Temporarily here because nice nano v2 spi is not defined on ZMk Yet
- * Source: https://github.com/zmkfirmware/zmk/blob/main/app/boards/shields/reviung41/boards/nice_nano.overlay
- * GitHub Issue: https://github.com/zmkfirmware/zmk/issues/885
- */
-
-#include <dt-bindings/led/led.h>
-
 /{
     chosen {
         zmk,battery = &vbatt;
