@@ -67,7 +67,7 @@
 };
 
 &lt {
-    quick_tap_ms = <100>;
+    quick_tap_ms = <200>;
 };
 
 
